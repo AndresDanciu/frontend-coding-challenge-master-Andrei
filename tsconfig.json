@@ -1,0 +1,31 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules", "tools/*"],
+  "compilerOptions": {
+    /* Paths */
+    "baseUrl": "src", // Base path to resolve non-relative module names
+    /* Project */
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+
+    /* Imports */
+    "esModuleInterop": true, // Allow importing from commonjs modules, recommended by TS.
+    "allowSyntheticDefaultImports": true, // allow import * as React from 'react'
+    "forceConsistentCasingInFileNames": true, // Error out if import and file system have a casing mismatch. Recommended by TS.
+    "resolveJsonModule": true, // Allow importing .json files
+
+    /* Compilation and transpilation */
+    "skipLibCheck": true, // Significant perf increase by skipping checking .d.ts files, particularly those in node_modules. Recommended by TS.. Recommended by TS.
+    "noEmit": true, // Do not emit output. Recommended by TS.
+    "allowJs": true, // Allow JavaScript files to be compiled. Recommended by TS.
+    "isolatedModules": true, // Allow to use modules without declare file (required for esbuild)
+    "removeComments": true, // Remove comments. Recommended by TS.
+
+    /* Additional */
+    "noFallthroughCasesInSwitch": true,
+    "strict": true
+  }
+}

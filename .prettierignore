@@ -1,0 +1,45 @@
+# Ignore artifacts:
+node_modules
+build
+dist
+coverage
+# Ignore proyect files:
+public
+#LICENSE
+# Ignore configs files:
+package-lock.json
+webpack.config.js
+#tools/templates
+# .stylelintrc
+# .vscode/*
+#.prettierignore
+#.prettierrc
+# Ignore git files:
+.git
+.gitattributes
+.gitignore
+*.eot
+*.ico
+*.lock
+*.log
+*.png
+*.snap
+*.svg
+*.ttf
+*.woff
+*.woff2
+.babelrc
+.DS_Store
+.editorconfigR
+*.env
+*.sh
+*.chunk.*
+*.min.*
+runtime~main.*
+.idea/*
+.npmrc
+.nvmrc
+.yarnrc
+#mock-server/data
+
+
