@@ -19,7 +19,7 @@ Problems I've encountered:
     For performance issues I recommend to use [https://compiledcssinjs.com/](https://compiledcssinjs.com/) or [https://vanilla-extract.style/documentation/getting-started/](https://vanilla-extract.style/documentation/getting-started/)
 
 - I thought about using Chakra UI for prototyping, but in the end I decided to do it manually to be faster.
-- Lack of time.
+- Time.
 
 Things I would have liked to add:
 
